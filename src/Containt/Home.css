@@ -1,0 +1,324 @@
+.rowHome{
+    display: flex; 
+margin-top: 9rem; 
+flex-direction: column; 
+align-items: center; 
+
+}
+.container-home{
+    display: flex; 
+margin-left: 4rem;
+margin-right: 4rem; 
+flex-direction: column-reverse; 
+justify-content: space-between; 
+
+
+
+@media (min-width: 768px) { 
+  flex-direction: row; 
+ }
+}
+
+.info-container-home{
+    display: flex; 
+flex-direction: column; 
+width: 100%; 
+
+
+@media (min-width: 768px) { 
+  width: 40%; 
+ }
+}
+.padding{
+    display: flex; 
+margin-top: 1rem; 
+margin-bottom: 1.75rem; 
+flex-wrap: wrap; 
+justify-content: center; 
+gap: 1.5rem; 
+
+
+@media (min-width: 768px) { 
+  margin-top: 7rem; 
+justify-content: flex-start; 
+ }
+
+}
+
+.food-word{
+    font-size: 2.25rem;
+line-height: 2.5rem; 
+font-weight: 700; 
+color: #3F4255;
+
+
+@media (min-width: 768px) { 
+  font-size: 6rem;
+line-height: 1; 
+ }
+
+}
+
+.that-word{
+    font-size: 2.25rem;
+line-height: 0rem; 
+font-weight: 700; 
+color: #9093A6;
+
+
+@media (min-width: 768px) { 
+  font-size: 3rem;
+line-height: 0.5; 
+ }
+}
+
+.discription-home{
+    text-align: center; 
+width: 100%;
+color: #909090;
+
+
+@media (min-width: 768px) { 
+  text-align: left; 
+ }
+
+}
+.order-now-btn{
+    padding-top: 1rem;
+padding-bottom: 1rem; 
+margin-top: 1rem; 
+color: #ffffff; 
+font-weight: 600; 
+width: 100%; 
+border-radius: 9999px; 
+background-color: #9093A6;
+
+
+
+@media (min-width: 768px) { 
+  width: 11rem; 
+ }
+}
+ .order-now-btn:hover{
+    background-color: #3F4255;
+     }
+
+
+
+.rating-home{
+    margin-top: 3rem; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+font-weight: 700; 
+
+}
+.reviews-count-home{
+    font-size: 0.875rem;
+line-height: 1.25rem; 
+color: #909090;
+
+}
+
+.row-download-home{
+    display: flex; 
+margin-top: 3.5rem;
+margin-bottom: 3.5rem; 
+background-color: #A7F3D0; 
+width: 80%; 
+height: 20rem; 
+border-radius: 0.375rem; 
+
+
+@media (min-width: 768px) { 
+  margin-top: 9rem;
+margin-bottom: 9rem; 
+height: 20rem; 
+ }
+
+}
+
+.download-container-home{
+    display: flex; 
+flex-direction: column; 
+justify-content: center; 
+gap: 1.25rem; 
+
+}
+
+.download-message{
+    margin-left: 3rem;
+margin-right: 3rem; 
+font-size: 1.25rem;
+line-height: 1.75rem; 
+width: 66.666667%; 
+
+
+@media (min-width: 768px) { 
+  font-size: 2.25rem;
+line-height: 2.5rem; 
+ }
+
+}
+.download-btn-home{
+    padding-top: 0.75rem;
+padding-bottom: 0.75rem; 
+padding-left: 1rem;
+padding-right: 1rem; 
+margin-left: 3rem;
+margin-right: 3rem; 
+background-color: #059669; 
+font-weight: 600; 
+border-radius: 9999px; 
+
+}
+.download-icon-home{
+    display: none; 
+margin-right: 3rem; 
+align-items: center; 
+
+
+@media (min-width: 768px) { 
+  display: flex; 
+ }
+
+}
+.row-restaurent-home{
+    display: flex; 
+margin-top: 3.5rem;
+margin-bottom: 3.5rem; 
+flex-direction: column; 
+justify-content: space-between; 
+width: 91.666667%; 
+
+
+@media (min-width: 768px) { 
+  margin-top: 6rem;
+margin-bottom: 6rem; 
+ }
+
+}
+.container-restaurent-home{
+    display: flex; 
+margin-bottom: 1.75rem; 
+justify-content: space-between; 
+
+}
+.heading-restaurent{
+    font-size: 1.875rem;
+line-height: 2.25rem; 
+color: #3F4255;
+
+
+@media (min-width: 768px) { 
+  font-size: 2.25rem;
+line-height: 2.5rem; 
+ }
+
+}
+
+.show-all-restaurant{ 
+font-weight: 600;
+border: #ffffff;
+border-radius: 20%; 
+color: #9093A6;
+background: #F2F4FA;
+}
+.show-all-restaurant:hover{
+    background-color: #d9d9dd;
+     }
+
+
+.restaurents-List{
+    display: flex; 
+flex-wrap: wrap; 
+justify-content: space-evenly; 
+
+
+@media (min-width: 768px) { 
+  justify-content: space-between; 
+ }
+}
+.restaurent{
+    margin-bottom: 2.5rem; 
+transition-duration: 300ms; 
+width: 18rem; 
+height: 18rem; 
+}
+
+.restaurent:hover {
+ --transform-scale-x: 1.05;
+--transform-scale-y: 1.05; 
+box-shadow: 0 20px 25px -13px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+ }
+
+.restaurent-img{
+    display: flex; 
+justify-content: center; 
+align-items: center; 
+height: 7rem; 
+
+}
+.row-insta-home{
+    display: flex; 
+margin-left: auto;
+margin-right: auto; 
+flex-direction: column; 
+width: 91.666667%; 
+
+}
+.heading-insta-home
+{
+    padding-top: 1.25rem;
+padding-bottom: 1.25rem; 
+margin-bottom: 1rem; 
+font-size: 1.875rem;
+line-height: 2.25rem; 
+text-align: center; 
+color: #3F4255;
+
+
+@media (min-width: 768px) { 
+  font-size: 2.25rem;
+line-height: 2.5rem; 
+text-align: left; 
+ }
+}
+
+.insta-img{
+    display: flex; 
+flex-wrap: wrap; 
+justify-content: space-evenly; 
+
+
+@media (min-width: 768px) { 
+  justify-content: space-between; 
+ }
+
+}
+.hower-img{
+    margin-bottom: 2rem; 
+transition-duration: 300ms; 
+width: 18rem; 
+height: 18rem; 
+filter: grayscale(100%); 
+}
+
+
+.hower-img:hover {
+ --transform-scale-x: 1.05;
+--transform-scale-y: 1.05; 
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+filter: grayscale(0%); 
+ }
+
+
+.that-excite-word{
+    display: flex; 
+justify-content: center; 
+gap: 0rem; 
+
+
+@media (min-width: 768px) { 
+  flex-direction: column; 
+ }
+}

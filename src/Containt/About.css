@@ -1,0 +1,186 @@
+.platforms{
+display: flex; 
+margin-top: 1rem;
+margin-bottom: 1rem; 
+justify-content: center; 
+gap: 1.25rem; 
+
+
+@media (min-width: 768px) { 
+  justify-content: flex-start; 
+ }
+}
+
+.linkdin{
+    transition-duration: 200ms; 
+font-size: 3rem;
+line-height: 1; 
+color: #0A66C2;
+
+:hover {
+ --transform-scale-x: .95;
+--transform-scale-y: .95; 
+cursor: pointer; 
+ }
+}
+
+.github{
+    transition-duration: 200ms; 
+font-size: 3rem;
+line-height: 1; 
+
+:hover {
+ --transform-scale-x: .95;
+--transform-scale-y: .95; 
+cursor: pointer; 
+ }
+}
+
+.gfg{
+    transition-duration: 200ms; 
+color: #059669; 
+font-size: 3rem;
+line-height: 1; 
+
+:hover {
+ --transform-scale-x: .95;
+--transform-scale-y: .95; 
+cursor: pointer; 
+ }
+}
+
+.leetcode{
+    transition-duration: 200ms; 
+color: #EF4444; 
+font-size: 3rem;
+line-height: 1; 
+
+:hover {
+ --transform-scale-x: .95;
+--transform-scale-y: .95; 
+cursor: pointer; 
+ }
+}
+
+.profile-Photo-container
+{
+    display: flex; 
+justify-content: center; 
+align-items: center; 
+margin-right: 4%;
+
+}
+
+.profileStyle{
+    border-radius: 9999px; 
+border-width: 8px; 
+border-style: dotted; 
+width: 375px;
+
+}
+
+.discription-about{
+text-align: center; 
+width: 100%;
+color: #909090;
+
+
+@media (min-width: 768px) { 
+  text-align: left; 
+ }
+
+}
+
+.sirName{
+    font-size: 2.25rem;
+line-height: 2.5rem; 
+font-weight: 700; 
+color: #9093A6;
+
+
+@media (min-width: 768px) { 
+  font-size: 3rem;
+line-height: 1; 
+ }
+}
+
+.name{
+    font-size: 2.25rem;
+line-height: 2.5rem; 
+font-weight: 700; 
+color: #3F4255;
+
+
+@media (min-width: 768px) { 
+  font-size: 6rem;
+line-height: 1; 
+ }
+}
+
+.midleName{
+    font-size: 2.25rem;
+line-height: 2.5rem; 
+font-weight: 700; 
+color: #9093A6;
+
+
+@media (min-width: 768px) { 
+  font-size: 3rem;
+line-height: 1; 
+ }
+}
+
+.midle-sir-name-container{
+    display: flex; 
+justify-content: center; 
+gap: 0.25rem; 
+
+
+@media (min-width: 768px) { 
+  flex-direction: column; 
+ }
+}
+
+.first-name-container{
+    display: flex; 
+margin-top: 1rem; 
+margin-bottom: 1.75rem; 
+flex-wrap: wrap; 
+justify-content: center; 
+gap: 0.75rem; 
+
+
+@media (min-width: 768px) { 
+  margin-top: 7rem; 
+justify-content: flex-start; 
+ }
+}
+
+.container-about{
+    display: flex; 
+margin-left: 4rem;
+margin-right: 4rem; 
+flex-direction: column-reverse; 
+justify-content: space-between; 
+
+
+@media (min-width: 768px) { 
+  flex-direction: row; 
+ }
+}
+
+.info-container-about
+{
+    display: flex; 
+flex-direction: column; 
+width: 100%; 
+
+
+@media (min-width: 768px) { 
+  width: 60%; 
+ }
+}
+.rowAbout{
+    margin-top: 8rem; 
+}
+

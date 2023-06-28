@@ -1,0 +1,42 @@
+.cart{
+    display: flex; 
+margin-bottom: 12rem; 
+justify-content: center; 
+width: 100%; 
+}
+.container-cart{
+display: flex; 
+margin-left: auto;
+margin-right: auto; 
+margin-top: 8rem; 
+flex-direction: column; 
+justify-content: space-between; 
+width: 91.666667%; 
+min-height: 100%; 
+
+
+@media (min-width: 768px) { 
+  flex-direction: row; 
+ }
+
+}
+
+.itemCount{
+margin-bottom: 2rem; 
+color: #909090;
+
+}
+.shoping{
+    margin-bottom: 0.75rem; 
+font-size: 1.875rem;
+line-height: 2.25rem; 
+color: #3F4255;
+}
+
+.header-cart{
+    width: 100%; 
+    
+@media (min-width: 768px) { 
+  width: 50%; 
+ }
+}

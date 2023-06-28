@@ -1,0 +1,76 @@
+.header-title{
+    display: flex; 
+position:fixed;
+top:0%;
+z-index: 50px;
+ 
+background-color: #ffffff; 
+justify-content: space-between; 
+align-items: center; 
+width: 100%; 
+
+
+
+@media (min-width: 768px) { 
+  padding-left: 3.5rem;
+padding-right: 3.5rem; 
+ }
+}
+
+
+
+.namaste-food-container{
+    display: flex; 
+padding-left: 0.5rem;
+padding-right: 0.5rem; 
+align-items: center; 
+width: 20rem; 
+height: 6rem; 
+
+}
+.namaste-food-name{
+    font-size: 2.25rem;
+line-height: 2.5rem; 
+font-weight: 700; 
+color: #3F4255;
+
+}
+.routers-title{
+color: #9093A6;
+
+
+@media (min-width: 768px) { 
+  display: flex; 
+ }
+}
+
+.route-title{
+    padding-left: 0.75rem;
+padding-right: 0.75rem; 
+font-weight: 600;
+text-decoration: #9093A6; 
+
+}
+.route-title:hover {
+        font-weight: 700; 
+       text-decoration: underline; 
+        }
+
+
+.hamburger-menu{
+    visibility: visible; 
+margin-left: 0.5rem;
+margin-right: 0.5rem; 
+font-size: 1.875rem;
+line-height: 2.25rem; 
+color: #3F4255;
+
+
+@media (min-width: 768px) { 
+  display: none; 
+ }
+
+:hover {
+ cursor: pointer; 
+ }
+}

@@ -1,0 +1,84 @@
+.rowFooter{
+    display: flex; 
+margin-top: 10rem; 
+padding-top: 5%;
+color: #ffffff; 
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+background: #1e2833;
+
+}
+.container-footer{
+    display: flex; 
+padding-bottom: 2.5rem; 
+flex-direction: row; 
+justify-content: center; 
+width: 75%; 
+border-color: #4B5563; 
+
+
+
+@media (min-width: 640px) { 
+  justify-content: space-between; 
+ }
+
+}
+.downlode-footer{
+    display: flex; 
+flex-direction: column; 
+align-items: center; 
+}
+
+.services{
+    display: none; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    
+    @media (min-width: 640px) { 
+      display: flex; 
+     }    
+}
+.about{
+    display: none; 
+flex-direction: column; 
+justify-content: space-between; 
+
+@media (min-width: 640px) { 
+  display: flex; 
+ }
+}
+
+.help{
+    display: none; 
+
+    @media (min-width: 640px) { 
+      display: block; 
+     }    
+}
+
+.Terms-Conditions{
+    display: flex; 
+margin-top: 2.5rem; 
+padding-bottom: 2.5rem;
+flex-direction: column; 
+justify-content: center; 
+width: 75%; 
+gap: 0.75rem; 
+
+@media (min-width: 640px) { 
+  flex-direction: row; 
+gap: 3.5rem; 
+ }
+
+}
+.help p{
+    margin-bottom: 1rem; 
+}
+
+.heading-footer{
+    margin-bottom: 1rem; 
+font-size: 1.875rem;
+line-height: 2.25rem; 
+font-weight: 800; 
+}
